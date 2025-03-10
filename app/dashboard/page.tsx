@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link'
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import {
@@ -54,31 +55,31 @@ const Header = () => {
                 <nav className="hidden md:block">
                     <ul className="flex space-x-4">
                         <li>
-                            <a
+                            <Link
                                 href="/"
                                 className="text-blue-500 font-semibold flex items-center"
                             >
                                 <Zap className="mr-1" size={16} />
                                 Explore
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="/"
                                 className="text-gray-300 hover:text-blue-500 transition-colors flex items-center"
                             >
                                 <Globe className="mr-1" size={16} />
                                 Investments
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="/"
                                 className="text-gray-300 hover:text-blue-500 transition-colors flex items-center"
                             >
                                 <BookOpen className="mr-1" size={16} />
                                 Learn
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
@@ -145,58 +146,58 @@ const Header = () => {
                         <nav className="mt-8">
                             <ul className="space-y-4">
                                 <li>
-                                    <a
+                                    <Link
                                         href="#"
                                         className="text-blue-500 font-semibold flex items-center"
                                     >
                                         <Zap className="mr-2" size={16} />
                                         Explore
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         href="#"
                                         className="text-gray-300 hover:text-blue-500 transition-colors flex items-center"
                                     >
                                         <Globe className="mr-2" size={16} />
                                         Investments
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         href="#"
                                         className="text-gray-300 hover:text-blue-500 transition-colors flex items-center"
                                     >
                                         <BookOpen className="mr-2" size={16} />
                                         Learn
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         href="#"
                                         className="text-gray-300 hover:text-blue-500 transition-colors flex items-center"
                                     >
                                         <Gift className="mr-2" size={16} />
                                         Rewards
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         href="#"
                                         className="text-gray-300 hover:text-blue-500 transition-colors flex items-center"
                                     >
                                         <HelpCircle className="mr-2" size={16} />
                                         Support
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         href="#"
                                         className="text-gray-300 hover:text-blue-500 transition-colors flex items-center"
                                     >
                                         <Settings className="mr-2" size={16} />
                                         Settings
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>
